@@ -1,6 +1,6 @@
 # BikeMate
 쉽고 편하게 자전거 라이딩 메이트를 찾을 수 있는 iOS 애플리케이션 ⌚️
-<br>
+<br><br>
 
 ## 🌟 Introduction
 <h3>주제 선정 배경</h3>
@@ -16,10 +16,8 @@
 
 <h3>기획 의도</h3>
 사용자 개인의 애플 워치 데이터를 활용해 사용자와 유사한 수준, 스펙, 습관을 가진 라이딩 메이트를 추천
-**-> 자신의 정보가 불특정 다수에게 노출되는 위험을 줄이며 안전하고 편리하게 라이딩 메이트를 찾을 수 있는 서비스 제공**
-<br>
-
-<hr>
+-> 자신의 정보가 불특정 다수에게 노출되는 위험을 줄이며 안전하고 편리하게 라이딩 메이트를 찾을 수 있는 서비스 제공
+<br><br>
 
 ## 🔭 Implementation
 <h3>개발 환경</h3>
@@ -44,7 +42,7 @@
 <div>
   <img width="653" alt="스크린샷 2024-08-16 오후 7 46 15" src="https://github.com/user-attachments/assets/7e665094-877a-4c31-8262-1f460c3e31da">
 </div>
-<br>
+<br><br>
 
 ## 🔑 Key Features
 <h3>1. 사용자 프로필 및 주행 기록 시각화</h3>
@@ -77,8 +75,7 @@
 <div>
   <img width="615" alt="스크린샷 2024-08-16 오후 7 55 53" src="https://github.com/user-attachments/assets/86c801f0-4dc5-42db-884c-6f94fe0063cb">
 </div>
-<br>
-
+<br><br>
 
 ## ✨ Expected Benefits
 <img width="630" alt="스크린샷 2024-08-16 오후 8 00 37" src="https://github.com/user-attachments/assets/a23cafb1-dcd6-4c90-8c1a-34fba13e8118">
