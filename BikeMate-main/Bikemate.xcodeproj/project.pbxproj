@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB2E7C927BF91160002D696 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2E7C827BF91160002D696 /* ProfileViewController.swift */; };
+		0AE2FAA227BFCD3900071644 /* EditBasicProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2FAA127BFCD3900071644 /* EditBasicProfileViewController.swift */; };
+		0AE2FAA427BFCF4700071644 /* CyclingSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2FAA327BFCF4700071644 /* CyclingSpeedViewController.swift */; };
+		0AE2FAA627BFD04800071644 /* CyclingDistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2FAA527BFD04800071644 /* CyclingDistanceViewController.swift */; };
+		0AE2FAA827BFE16F00071644 /* PreferredEnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2FAA727BFE16F00071644 /* PreferredEnvironmentViewController.swift */; };
+		0AE2FAAA27C00F2B00071644 /* RecentCyclingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2FAA927C00F2A00071644 /* RecentCyclingHistoryViewController.swift */; };
+		D169F0E627C287B500977CF8 /* Bikelist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D169F0E527C287B500977CF8 /* Bikelist.storyboard */; };
+		D169F0E827C287C400977CF8 /* BikeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169F0E727C287C400977CF8 /* BikeListViewController.swift */; };
+		D16F3C0127C280A300E3BCA3 /* Bikemap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16F3C0027C280A300E3BCA3 /* Bikemap.storyboard */; };
+		D16F3C0327C280B300E3BCA3 /* BikemapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16F3C0227C280B300E3BCA3 /* BikemapViewController.swift */; };
+		D18C4EE0279D6B3100274121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C4EDF279D6B3100274121 /* AppDelegate.swift */; };
+		D18C4EE2279D6B3100274121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C4EE1279D6B3100274121 /* SceneDelegate.swift */; };
+		D18C4EE4279D6B3100274121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C4EE3279D6B3100274121 /* ViewController.swift */; };
+		D18C4EE7279D6B3100274121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EE5279D6B3100274121 /* Main.storyboard */; };
+		D18C4EE9279D6B3300274121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EE8279D6B3300274121 /* Assets.xcassets */; };
+		D18C4EEC279D6B3300274121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EEA279D6B3300274121 /* LaunchScreen.storyboard */; };
+		D18C4EF4279D6CCB00274121 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EF3279D6CCB00274121 /* GoogleService-Info.plist */; };
+		D18C4EF9279D6D5C00274121 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EF8279D6D5C00274121 /* Auth.storyboard */; };
+		D18C4EFB279D6D6A00274121 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EFA279D6D6A00274121 /* Profile.storyboard */; };
+		D18C4EFD279D6D7300274121 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C4EFC279D6D7300274121 /* Group.storyboard */; };
+		D18C4F01279D6D9A00274121 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C4F00279D6D9A00274121 /* DatabaseManager.swift */; };
+		D18D814527C282800085C306 /* UserDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D814427C282800085C306 /* UserDatabaseManager.swift */; };
+		D18D814727C2828B0085C306 /* OtherUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D814627C2828B0085C306 /* OtherUserModel.swift */; };
+		D18D814927C284180085C306 /* FreeBoardWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D814827C284180085C306 /* FreeBoardWriteViewController.swift */; };
+		D1E46EB927C1E7FA0029F7E0 /* RecruitBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EAF27C1E7F90029F7E0 /* RecruitBoardViewController.swift */; };
+		D1E46EBA27C1E7FA0029F7E0 /* GroupingResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB027C1E7F90029F7E0 /* GroupingResultViewController.swift */; };
+		D1E46EBB27C1E7FA0029F7E0 /* RecruitBoardPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB127C1E7F90029F7E0 /* RecruitBoardPostViewController.swift */; };
+		D1E46EBC27C1E7FA0029F7E0 /* BeforeGroupingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB227C1E7F90029F7E0 /* BeforeGroupingViewController.swift */; };
+		D1E46EBD27C1E7FA0029F7E0 /* FreeBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB327C1E7F90029F7E0 /* FreeBoardViewController.swift */; };
+		D1E46EBE27C1E7FA0029F7E0 /* PrioritySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB427C1E7F90029F7E0 /* PrioritySelectViewController.swift */; };
+		D1E46EBF27C1E7FA0029F7E0 /* GroupCommunityMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB527C1E7FA0029F7E0 /* GroupCommunityMainViewController.swift */; };
+		D1E46EC027C1E7FA0029F7E0 /* RecruitBoardWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB627C1E7FA0029F7E0 /* RecruitBoardWriteViewController.swift */; };
+		D1E46EC127C1E7FA0029F7E0 /* GroupPersonProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB727C1E7FA0029F7E0 /* GroupPersonProfileViewController.swift */; };
+		D1E46EC227C1E7FA0029F7E0 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EB827C1E7FA0029F7E0 /* FeedbackViewController.swift */; };
+		D1E46EC427C1E80A0029F7E0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E46EC327C1E80A0029F7E0 /* MainTabBarController.swift */; };
+		D59E4DB627C1E44500EAA76E /* BoardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E4DB127C1E44400EAA76E /* BoardManager.swift */; };
+		D59E4DB727C1E44500EAA76E /* ReplyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E4DB227C1E44400EAA76E /* ReplyModel.swift */; };
+		D59E4DB827C1E44500EAA76E /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E4DB327C1E44500EAA76E /* BoardModel.swift */; };
+		D59E4DB927C1E44500EAA76E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E4DB427C1E44500EAA76E /* UserModel.swift */; };
+		D59E4DBA27C1E44500EAA76E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E4DB527C1E44500EAA76E /* File.swift */; };
+		F286EE2F26D365F49C16BD07 /* Pods_Bikemate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B24C67A2A247F42829B4CA /* Pods_Bikemate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB2E7C827BF91160002D696 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0AE2FAA127BFCD3900071644 /* EditBasicProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBasicProfileViewController.swift; sourceTree = "<group>"; };
+		0AE2FAA327BFCF4700071644 /* CyclingSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingSpeedViewController.swift; sourceTree = "<group>"; };
+		0AE2FAA527BFD04800071644 /* CyclingDistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingDistanceViewController.swift; sourceTree = "<group>"; };
+		0AE2FAA727BFE16F00071644 /* PreferredEnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredEnvironmentViewController.swift; sourceTree = "<group>"; };
+		0AE2FAA927C00F2A00071644 /* RecentCyclingHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCyclingHistoryViewController.swift; sourceTree = "<group>"; };
+		788F4B899642307BD456DBCB /* Pods-Bikemate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikemate.debug.xcconfig"; path = "Target Support Files/Pods-Bikemate/Pods-Bikemate.debug.xcconfig"; sourceTree = "<group>"; };
+		9086D59487032EF76BF172C3 /* Pods-Bikemate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikemate.release.xcconfig"; path = "Target Support Files/Pods-Bikemate/Pods-Bikemate.release.xcconfig"; sourceTree = "<group>"; };
+		B0B24C67A2A247F42829B4CA /* Pods_Bikemate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bikemate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D169F0E527C287B500977CF8 /* Bikelist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bikelist.storyboard; sourceTree = "<group>"; };
+		D169F0E727C287C400977CF8 /* BikeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListViewController.swift; sourceTree = "<group>"; };
+		D16F3C0027C280A300E3BCA3 /* Bikemap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bikemap.storyboard; sourceTree = "<group>"; };
+		D16F3C0227C280B300E3BCA3 /* BikemapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikemapViewController.swift; sourceTree = "<group>"; };
+		D18C4EDC279D6B3100274121 /* Bikemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bikemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18C4EDF279D6B3100274121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18C4EE1279D6B3100274121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D18C4EE3279D6B3100274121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D18C4EE6279D6B3100274121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18C4EE8279D6B3300274121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18C4EEB279D6B3300274121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18C4EED279D6B3300274121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18C4EF3279D6CCB00274121 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D18C4EF8279D6D5C00274121 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		D18C4EFA279D6D6A00274121 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		D18C4EFC279D6D7300274121 /* Group.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
+		D18C4F00279D6D9A00274121 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		D18D814427C282800085C306 /* UserDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDatabaseManager.swift; sourceTree = "<group>"; };
+		D18D814627C2828B0085C306 /* OtherUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserModel.swift; sourceTree = "<group>"; };
+		D18D814827C284180085C306 /* FreeBoardWriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeBoardWriteViewController.swift; sourceTree = "<group>"; };
+		D1E46EAF27C1E7F90029F7E0 /* RecruitBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruitBoardViewController.swift; sourceTree = "<group>"; };
+		D1E46EB027C1E7F90029F7E0 /* GroupingResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupingResultViewController.swift; sourceTree = "<group>"; };
+		D1E46EB127C1E7F90029F7E0 /* RecruitBoardPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruitBoardPostViewController.swift; sourceTree = "<group>"; };
+		D1E46EB227C1E7F90029F7E0 /* BeforeGroupingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeGroupingViewController.swift; sourceTree = "<group>"; };
+		D1E46EB327C1E7F90029F7E0 /* FreeBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeBoardViewController.swift; sourceTree = "<group>"; };
+		D1E46EB427C1E7F90029F7E0 /* PrioritySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrioritySelectViewController.swift; sourceTree = "<group>"; };
+		D1E46EB527C1E7FA0029F7E0 /* GroupCommunityMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCommunityMainViewController.swift; sourceTree = "<group>"; };
+		D1E46EB627C1E7FA0029F7E0 /* RecruitBoardWriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruitBoardWriteViewController.swift; sourceTree = "<group>"; };
+		D1E46EB727C1E7FA0029F7E0 /* GroupPersonProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPersonProfileViewController.swift; sourceTree = "<group>"; };
+		D1E46EB827C1E7FA0029F7E0 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		D1E46EC327C1E80A0029F7E0 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D59E4DB127C1E44400EAA76E /* BoardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardManager.swift; sourceTree = "<group>"; };
+		D59E4DB227C1E44400EAA76E /* ReplyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyModel.swift; sourceTree = "<group>"; };
+		D59E4DB327C1E44500EAA76E /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		D59E4DB427C1E44500EAA76E /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D59E4DB527C1E44500EAA76E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18C4ED9279D6B3100274121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F286EE2F26D365F49C16BD07 /* Pods_Bikemate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9D3311DD248A81576D0B0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788F4B899642307BD456DBCB /* Pods-Bikemate.debug.xcconfig */,
+				9086D59487032EF76BF172C3 /* Pods-Bikemate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		237C798C2E76A180078F6D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B24C67A2A247F42829B4CA /* Pods_Bikemate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D169F0E427C287A600977CF8 /* Bikelist */ = {
+			isa = PBXGroup;
+			children = (
+				D169F0E527C287B500977CF8 /* Bikelist.storyboard */,
+				D169F0E727C287C400977CF8 /* BikeListViewController.swift */,
+			);
+			path = Bikelist;
+			sourceTree = "<group>";
+		};
+		D16F3BFF27C2808700E3BCA3 /* Bikemap */ = {
+			isa = PBXGroup;
+			children = (
+				D16F3C0027C280A300E3BCA3 /* Bikemap.storyboard */,
+				D16F3C0227C280B300E3BCA3 /* BikemapViewController.swift */,
+			);
+			path = Bikemap;
+			sourceTree = "<group>";
+		};
+		D18C4ED3279D6B3100274121 = {
+			isa = PBXGroup;
+			children = (
+				D18C4EDE279D6B3100274121 /* Bikemate */,
+				D18C4EDD279D6B3100274121 /* Products */,
+				0C9D3311DD248A81576D0B0D /* Pods */,
+				237C798C2E76A180078F6D74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D18C4EDD279D6B3100274121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4EDC279D6B3100274121 /* Bikemate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18C4EDE279D6B3100274121 /* Bikemate */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4F03279D6DD700274121 /* System */,
+				D18C4EFF279D6D8F00274121 /* Backend */,
+				D18C4EFE279D6D7800274121 /* Views */,
+				D18C4EE8279D6B3300274121 /* Assets.xcassets */,
+				D18C4EF3279D6CCB00274121 /* GoogleService-Info.plist */,
+				D18C4EED279D6B3300274121 /* Info.plist */,
+			);
+			path = Bikemate;
+			sourceTree = "<group>";
+		};
+		D18C4EF5279D6D1D00274121 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4EF8279D6D5C00274121 /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D18C4EF6279D6D3200274121 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4EFA279D6D6A00274121 /* Profile.storyboard */,
+				0AB2E7C827BF91160002D696 /* ProfileViewController.swift */,
+				0AE2FAA127BFCD3900071644 /* EditBasicProfileViewController.swift */,
+				0AE2FAA327BFCF4700071644 /* CyclingSpeedViewController.swift */,
+				0AE2FAA527BFD04800071644 /* CyclingDistanceViewController.swift */,
+				0AE2FAA727BFE16F00071644 /* PreferredEnvironmentViewController.swift */,
+				0AE2FAA927C00F2A00071644 /* RecentCyclingHistoryViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D18C4EF7279D6D4F00274121 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4EFC279D6D7300274121 /* Group.storyboard */,
+				D1E46EB227C1E7F90029F7E0 /* BeforeGroupingViewController.swift */,
+				D1E46EB827C1E7FA0029F7E0 /* FeedbackViewController.swift */,
+				D1E46EB327C1E7F90029F7E0 /* FreeBoardViewController.swift */,
+				D1E46EB527C1E7FA0029F7E0 /* GroupCommunityMainViewController.swift */,
+				D1E46EB027C1E7F90029F7E0 /* GroupingResultViewController.swift */,
+				D1E46EB727C1E7FA0029F7E0 /* GroupPersonProfileViewController.swift */,
+				D1E46EB427C1E7F90029F7E0 /* PrioritySelectViewController.swift */,
+				D1E46EB127C1E7F90029F7E0 /* RecruitBoardPostViewController.swift */,
+				D18D814827C284180085C306 /* FreeBoardWriteViewController.swift */,
+				D1E46EAF27C1E7F90029F7E0 /* RecruitBoardViewController.swift */,
+				D1E46EB627C1E7FA0029F7E0 /* RecruitBoardWriteViewController.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		D18C4EFE279D6D7800274121 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4F02279D6DC100274121 /* MainTabBar */,
+				D18C4EE5279D6B3100274121 /* Main.storyboard */,
+				D16F3BFF27C2808700E3BCA3 /* Bikemap */,
+				D169F0E427C287A600977CF8 /* Bikelist */,
+				D18C4EF7279D6D4F00274121 /* Group */,
+				D18C4EF6279D6D3200274121 /* Profile */,
+				D18C4EF5279D6D1D00274121 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D18C4EFF279D6D8F00274121 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				D59E4DB127C1E44400EAA76E /* BoardManager.swift */,
+				D59E4DB327C1E44500EAA76E /* BoardModel.swift */,
+				D18D814427C282800085C306 /* UserDatabaseManager.swift */,
+				D59E4DB527C1E44500EAA76E /* File.swift */,
+				D59E4DB227C1E44400EAA76E /* ReplyModel.swift */,
+				D18D814627C2828B0085C306 /* OtherUserModel.swift */,
+				D59E4DB427C1E44500EAA76E /* UserModel.swift */,
+				D18C4F00279D6D9A00274121 /* DatabaseManager.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		D18C4F02279D6DC100274121 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D1E46EC327C1E80A0029F7E0 /* MainTabBarController.swift */,
+				D18C4EE3279D6B3100274121 /* ViewController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		D18C4F03279D6DD700274121 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D18C4EE1279D6B3100274121 /* SceneDelegate.swift */,
+				D18C4EDF279D6B3100274121 /* AppDelegate.swift */,
+				D18C4EEA279D6B3300274121 /* LaunchScreen.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18C4EDB279D6B3100274121 /* Bikemate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18C4EF0279D6B3300274121 /* Build configuration list for PBXNativeTarget "Bikemate" */;
+			buildPhases = (
+				64940EA08D0DBE26D34D2AB0 /* [CP] Check Pods Manifest.lock */,
+				D18C4ED8279D6B3100274121 /* Sources */,
+				D18C4ED9279D6B3100274121 /* Frameworks */,
+				D18C4EDA279D6B3100274121 /* Resources */,
+				5AD5058FCD52A53FA5FFC1FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bikemate;
+			productName = Bikemate;
+			productReference = D18C4EDC279D6B3100274121 /* Bikemate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18C4ED4279D6B3100274121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D18C4EDB279D6B3100274121 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D18C4ED7279D6B3100274121 /* Build configuration list for PBXProject "Bikemate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18C4ED3279D6B3100274121;
+			productRefGroup = D18C4EDD279D6B3100274121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18C4EDB279D6B3100274121 /* Bikemate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18C4EDA279D6B3100274121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18C4EFB279D6D6A00274121 /* Profile.storyboard in Resources */,
+				D18C4EEC279D6B3300274121 /* LaunchScreen.storyboard in Resources */,
+				D16F3C0127C280A300E3BCA3 /* Bikemap.storyboard in Resources */,
+				D18C4EFD279D6D7300274121 /* Group.storyboard in Resources */,
+				D169F0E627C287B500977CF8 /* Bikelist.storyboard in Resources */,
+				D18C4EF4279D6CCB00274121 /* GoogleService-Info.plist in Resources */,
+				D18C4EF9279D6D5C00274121 /* Auth.storyboard in Resources */,
+				D18C4EE9279D6B3300274121 /* Assets.xcassets in Resources */,
+				D18C4EE7279D6B3100274121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AD5058FCD52A53FA5FFC1FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bikemate/Pods-Bikemate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bikemate/Pods-Bikemate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bikemate/Pods-Bikemate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64940EA08D0DBE26D34D2AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bikemate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18C4ED8279D6B3100274121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E46EB927C1E7FA0029F7E0 /* RecruitBoardViewController.swift in Sources */,
+				D1E46EBD27C1E7FA0029F7E0 /* FreeBoardViewController.swift in Sources */,
+				D18C4F01279D6D9A00274121 /* DatabaseManager.swift in Sources */,
+				D1E46EC227C1E7FA0029F7E0 /* FeedbackViewController.swift in Sources */,
+				D1E46EC027C1E7FA0029F7E0 /* RecruitBoardWriteViewController.swift in Sources */,
+				0AE2FAA627BFD04800071644 /* CyclingDistanceViewController.swift in Sources */,
+				D1E46EC127C1E7FA0029F7E0 /* GroupPersonProfileViewController.swift in Sources */,
+				D1E46EBA27C1E7FA0029F7E0 /* GroupingResultViewController.swift in Sources */,
+				D1E46EBE27C1E7FA0029F7E0 /* PrioritySelectViewController.swift in Sources */,
+				D1E46EBB27C1E7FA0029F7E0 /* RecruitBoardPostViewController.swift in Sources */,
+				D18D814727C2828B0085C306 /* OtherUserModel.swift in Sources */,
+				0AE2FAAA27C00F2B00071644 /* RecentCyclingHistoryViewController.swift in Sources */,
+				D18D814527C282800085C306 /* UserDatabaseManager.swift in Sources */,
+				D16F3C0327C280B300E3BCA3 /* BikemapViewController.swift in Sources */,
+				D18C4EE4279D6B3100274121 /* ViewController.swift in Sources */,
+				0AE2FAA827BFE16F00071644 /* PreferredEnvironmentViewController.swift in Sources */,
+				D59E4DB627C1E44500EAA76E /* BoardManager.swift in Sources */,
+				D18C4EE0279D6B3100274121 /* AppDelegate.swift in Sources */,
+				D1E46EBC27C1E7FA0029F7E0 /* BeforeGroupingViewController.swift in Sources */,
+				0AB2E7C927BF91160002D696 /* ProfileViewController.swift in Sources */,
+				D169F0E827C287C400977CF8 /* BikeListViewController.swift in Sources */,
+				D59E4DB927C1E44500EAA76E /* UserModel.swift in Sources */,
+				D1E46EBF27C1E7FA0029F7E0 /* GroupCommunityMainViewController.swift in Sources */,
+				D59E4DB727C1E44500EAA76E /* ReplyModel.swift in Sources */,
+				D1E46EC427C1E80A0029F7E0 /* MainTabBarController.swift in Sources */,
+				D59E4DBA27C1E44500EAA76E /* File.swift in Sources */,
+				D18C4EE2279D6B3100274121 /* SceneDelegate.swift in Sources */,
+				0AE2FAA227BFCD3900071644 /* EditBasicProfileViewController.swift in Sources */,
+				D18D814927C284180085C306 /* FreeBoardWriteViewController.swift in Sources */,
+				D59E4DB827C1E44500EAA76E /* BoardModel.swift in Sources */,
+				0AE2FAA427BFCF4700071644 /* CyclingSpeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D18C4EE5279D6B3100274121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18C4EE6279D6B3100274121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18C4EEA279D6B3300274121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18C4EEB279D6B3300274121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18C4EEE279D6B3300274121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18C4EEF279D6B3300274121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18C4EF1279D6B3300274121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788F4B899642307BD456DBCB /* Pods-Bikemate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRXGXW25BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bikemate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BikemateProj.Bikemate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18C4EF2279D6B3300274121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9086D59487032EF76BF172C3 /* Pods-Bikemate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRXGXW25BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bikemate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BikemateProj.Bikemate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18C4ED7279D6B3100274121 /* Build configuration list for PBXProject "Bikemate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18C4EEE279D6B3300274121 /* Debug */,
+				D18C4EEF279D6B3300274121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18C4EF0279D6B3300274121 /* Build configuration list for PBXNativeTarget "Bikemate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18C4EF1279D6B3300274121 /* Debug */,
+				D18C4EF2279D6B3300274121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18C4ED4279D6B3100274121 /* Project object */;
+}
