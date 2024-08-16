@@ -18,7 +18,7 @@
 **-> 자신의 정보가 불특정 다수에게 노출되는 위험을 줄이며 안전하고 편리하게 라이딩 메이트를 찾을 수 있는 서비스 제공**
 <br>
 
-## Implementation
+## 🔭 Implementation
 <h3>개발 환경</h3>
 <div>
   <img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white"> 
@@ -31,9 +31,9 @@
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
   <img src="https://img.shields.io/badge/navermap-03C75A?style=for-the-badge&logo=naver&logoColor=white"> 
 </div>
->br>
+<br>
 <div>
-  📌 **서울시 공공자전거 실시간 대여정보 API 활용** : https://data.seoul.go.kr/dataList/OA-15493/A/1/datasetView.do
+  📌 서울시 공공자전거 실시간 대여정보 API 활용 : https://data.seoul.go.kr/dataList/OA-15493/A/1/datasetView.do
 </div>
 
 <br>
@@ -43,7 +43,7 @@
 </div>
 <br>
 
-## Key Features
+## 🔑 Key Features
 <h3>1. 사용자 프로필 및 주행 기록 시각화</h3>
 - 애플 워치를 착용한 사용자의 자전거 주행 기록을 포함한 운동 정보의 시각화
 - 운동 정보와 사용자 선호 입력 값을 사용자 프로필에 표시
@@ -75,3 +75,9 @@
   <img width="615" alt="스크린샷 2024-08-16 오후 7 55 53" src="https://github.com/user-attachments/assets/86c801f0-4dc5-42db-884c-6f94fe0063cb">
 </div>
 <br>
+
+
+## ✨ Expected Benefits
+<img width="630" alt="스크린샷 2024-08-16 오후 8 00 37" src="https://github.com/user-attachments/assets/a23cafb1-dcd6-4c90-8c1a-34fba13e8118">
+<br>
+
